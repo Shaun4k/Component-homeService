@@ -1,0 +1,25 @@
+.center-box {
+  width: 30%;
+  height: 50%;
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  flex-direction: column;
+}
+
+.audio-analyser-box {
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0rem;
+  z-index: 0;
+}

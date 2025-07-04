@@ -1,0 +1,27 @@
+.connect-button {
+  background: #4660ec;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 1rem 2.5rem;
+  font-size: 1.25rem;
+  font-weight: 200;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  transition: background 0.2s, opacity 0.2s;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: -1rem;
+  margin-top: 1.5rem;
+  z-index: 1;
+}
+
+.connect-button:hover:not(:disabled) {
+  background: #2746b6;
+  box-shadow: 0 4px 16px rgba(70,96,236,0.15);
+}
+
+.connect-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+} 

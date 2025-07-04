@@ -1,0 +1,7 @@
+.box-row {
+  display: flex;
+  width: 98%;
+  height: 98%;
+  align-items: center;
+  justify-content: center;
+} 
